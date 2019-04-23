@@ -36,5 +36,9 @@ public class MainApp
 		
 		//Printing the output to the console
 		System.out.println(output);
+		//Plotting the NeuralNetwork
+		//To use this feature you need to add the AbstractWindwoGraphicsEngine to the build path
+		Plotter p = new Plotter();
+		p.plot(nn, 50, 125,75,10);
 	}
 }
