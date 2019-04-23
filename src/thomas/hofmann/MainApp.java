@@ -11,6 +11,7 @@ public class MainApp
 		//Adding the needed Layers
 		nn.addInputLayer(1,ActFunctions.RELU);
 		nn.addHiddenLayer(5, ActFunctions.RELU);
+		nn.addHiddenLayer(2, ActFunctions.TANH);
 		nn.addOutputLayer(1, ActFunctions.TANH);
 		
 		//Initializing the input/output-ArrayList
